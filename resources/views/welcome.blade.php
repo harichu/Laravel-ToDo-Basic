@@ -15,10 +15,10 @@
 
    <div class="row mt-4">
     <div class="col-sm">
-     <input type="text" placeholder="Icon" class="form-control br-25" value="{{$msg->icon}}" name="icon"  />
+     <input type="text" placeholder="font-awesome icon > example: user" class="form-control br-25" value="{{$msg->icon}}" name="icon"  />
     </div>
     <div class="col-sm">
-     <input type="text" placeholder="Color Code" class="form-control  br-25" value="{{ $msg->color }}" name="color" />
+     <input type="text" placeholder="color code > example: #ff0000" class="form-control  br-25" value="{{ $msg->color }}" name="color" />
     </div>
     <div class="col-sm">
      <input type="submit" class="btn btn-primary btn-block  br-25" value="Edit Todo" />
@@ -38,10 +38,10 @@
 
    <div class="row mt-4">
     <div class="col-sm">
-     <input type="text" placeholder="Icon" class="form-control br-25" name="icon"  />
+     <input type="text" placeholder="font-awesome icon > example: user" class="form-control br-25" name="icon"  />
     </div>
     <div class="col-sm">
-     <input type="text" placeholder="Color Code" class="form-control  br-25" name="color" />
+     <input type="text" placeholder="color code > example: #ff0000" class="form-control  br-25" name="color" />
     </div>
     <div class="col-sm">
      <input type="submit" class="btn btn-success btn-block  br-25" value="Add Todo" />
